@@ -11,12 +11,12 @@
 			crossorigin="anonymous"
 		/>
 		<link rel="stylesheet" href="css/style.css" />
-		<title>ChatCord App</title>
+		<title>RTC: Join</title>
 	</head>
 	<body>
 		<div class="join-container">
 			<header class="join-header">
-				<h1><i class="fas fa-smile"></i> ChatCord</h1>
+				<h1>Real-Time Chat</h1>
 			</header>
 			<main class="join-main">
 				<form action="chat.html">
@@ -26,22 +26,22 @@
 							type="text"
 							name="username"
 							id="username"
-							placeholder="Enter username..."
+							placeholder="Enter name or anonymous..."
 							required
 						/>
 					</div>
 					<div class="form-control">
-						<label for="room">Room</label>
+						<label for="room">Role</label>
 						<select name="room" id="room">
-							<option value="JavaScript">JavaScript</option>
-							<option value="Python">Python</option>
-							<option value="PHP">PHP</option>
-							<option value="C#">C#</option>
+							<option value="Random">-</option>
+							<option value="Listener">Listener</option>
+							<option value="Speaker">Speaker</option>
+							<!-- <option value="C#">C#</option>
 							<option value="Ruby">Ruby</option>
-							<option value="Java">Java</option>
+							<option value="Java">Java</option> -->
 						</select>
 					</div>
-					<button type="submit" class="btn">Join Chat</button>
+					<button type="submit" class="btn">Join</button>
 				</form>
 			</main>
 		</div>
