@@ -12,6 +12,6 @@
 ##### Step 2 - Run your app locally using the Heroku Local command line tool
 >To locally start a particular process type, specify the process type. 
 >
-###### heroku local web
+> " heroku local web "
 >
 
