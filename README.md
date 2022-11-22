@@ -10,8 +10,8 @@
 >For that, we need to create a new file .gitignore and inside it write the file that we want to ignore.
 
 ##### Step 2 - Run your app locally using the Heroku Local command line tool
->First, create a new application on Heroku and follow the steps listed on the platform.
+>To locally start a particular process type, specify the process type. 
 >
->Select Deploy. Then on the second row, click on the GitHub icon.
+###### heroku local web
 >
 
